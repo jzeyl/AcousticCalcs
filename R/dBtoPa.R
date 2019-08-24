@@ -7,7 +7,6 @@
 #' This function allows you to convert decibels to Pascals value. Defaults to reference pressure of 20 microPascals.
 #' @param dB dB value
 #' @param ref reference pressure in micropasals
-#' @keywords
 #' @export
 #' @examples
 #' dBtoPa(94,20)
