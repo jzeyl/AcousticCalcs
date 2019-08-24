@@ -1,6 +1,7 @@
 # AcousticCalcs
 Common calculations in acoustics and audiometry
 
-'''Installation:
+```
+Installation:
 devtools::install_github("jzeyl/AcousticCalcs", force = TRUE)
-'''
+```
