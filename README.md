@@ -8,5 +8,7 @@ devtools::install_github("jzeyl/AcousticCalcs", force = TRUE)
 
 Functions:
 dBtoPa()
+
 PatodB()
+
 pressuredrop()
