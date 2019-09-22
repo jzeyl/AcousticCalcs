@@ -12,4 +12,6 @@ Functions:
 
 >PatodB()
 
->pressuredrop()
+>transmissionloss()
+
+>phaseshift()
