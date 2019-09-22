@@ -7,12 +7,12 @@
 dBtoPa(dB, ref = 20)
 }
 \arguments{
-\item{dB}{dB value}
+\item{dB}{decibel value}
 
 \item{ref}{reference pressure in micropasals}
 }
 \description{
-This function allows you to convert decibels to Pascals value. Defaults to reference pressure of 20 microPascals.
+This function allows you to convert decibels to Pascals. Defaults to a reference pressure of 20 microPascals.
 }
 \examples{
 dBtoPa(94,20)

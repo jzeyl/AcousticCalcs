@@ -13,11 +13,3 @@ Functions:
 >PatodB()
 
 >pressuredrop()
-
->timeshiftpressure()
-
-![alt text](https://github.com/jzeyl/AcousticCalcs/blob/master/Rplot.png)
-
-
-
-

@@ -1,6 +1,7 @@
-#'Calculates the sine wave and time shifted time wave. Output is a list 'S1' (first sound),
-#''S2' time shifted sound, 'Tadd' time added, 'Time; time
-
+#'Phase shift
+#'
+#'Calculates the sine wave and time shifted time wave. Output is a list: S1 (first sound),
+#'S2 (time shifted sound), Tadd (time added), Time (time)
 #' @param angle angle of sound in degrees. 0 is directly in front
 #' @param d distance between two ears or receivers
 #' @param c speed of sound

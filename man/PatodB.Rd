@@ -9,7 +9,7 @@ PatodB(Pa, ref = 20)
 \arguments{
 \item{Pa}{Pascals value}
 
-\item{ref}{reference pressure in micropasals}
+\item{ref}{reference pressure in micropasals.}
 }
 \description{
 Converts Pascals value to dB. Reference pressure defaults to 20 microPascals.

@@ -8,7 +8,7 @@
 #'
 #' Converts Pascals value to dB. Reference pressure defaults to 20 microPascals.
 #' @param Pa Pascals value
-#' @param ref reference pressure in micropasals
+#' @param ref reference pressure in micropasals.
 #' @export
 #' @examples
 #' PatodB(1,20)

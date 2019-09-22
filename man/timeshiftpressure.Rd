@@ -2,10 +2,9 @@
 % Please edit documentation in R/phaseshift.R
 \name{timeshiftpressure}
 \alias{timeshiftpressure}
-\title{Calculates the sine wave and time shifted time wave. Output is a list 'S1' (first sound),
-'S2' time shifted sound, 'Tadd' time added, 'Time; time}
+\title{Phase shift}
 \usage{
-timeshiftpressure(Amplitude = 1, freq = 2, distance = 100, c = 340)
+timeshiftpressure(Amplitude = 1, freq = 2, distance = 0, c = 340)
 }
 \arguments{
 \item{c}{speed of sound}
@@ -17,8 +16,8 @@ timeshiftpressure(Amplitude = 1, freq = 2, distance = 100, c = 340)
 \item{f}{frequency}
 }
 \description{
-Calculates the sine wave and time shifted time wave. Output is a list 'S1' (first sound),
-'S2' time shifted sound, 'Tadd' time added, 'Time; time
+Calculates the sine wave and time shifted time wave. Output is a list: S1 (first sound),
+S2 (time shifted sound), Tadd (time added), Time (time)
 }
 \examples{
 timeshiftpressure(Amplitude = 1, freq = 2, distance = 340, c = 340)
