@@ -9,9 +9,11 @@ devtools::install_github("jzeyl/AcousticCalcs", force = TRUE)
 
 Functions:
 # Conversions
->dBtoPa()
+>dBtoPa() Convert between dB relative to a reference microPascals, and Pascals or microPascals
 
 >PatodB()
+
+>angular() Convert frequency to angular frequency
 
 # Sound propagation
 >transmissionloss() Calculate pressure drop over a distance for spherical or cylindrical spreading
