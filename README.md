@@ -15,6 +15,8 @@ Functions:
 
 >angular() Convert frequency to angular frequency
 
+>intensity() calculate the intensity based on pressure and impedance
+
 # Sound propagation
 >transmissionloss() Calculate pressure drop over a distance for spherical or cylindrical spreading
 
