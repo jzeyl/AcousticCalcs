@@ -12,9 +12,4 @@ Functions:
 
 >PatodB()
 
->transmissionloss()
-
->phaseshift()
-
-
-![alt text](Rplot.png)
+>pressuredrop()
