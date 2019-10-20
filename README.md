@@ -13,3 +13,5 @@ Functions:
 >PatodB()
 
 >transmissionloss() Calculate pressure drop for spherical spreading
+
+>timedifftophase() Convert time difference to phase difference
