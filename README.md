@@ -8,12 +8,12 @@ devtools::install_github("jzeyl/AcousticCalcs", force = TRUE)
 ```
 
 Functions:
-#Conversions
+# Conversions
 >dBtoPa()
 
 >PatodB()
 
-#Sound propagation
+# Sound propagation
 >transmissionloss() Calculate pressure drop for spherical spreading
 
 >timedifftophase() Convert time difference to phase difference
