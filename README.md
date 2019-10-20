@@ -14,6 +14,8 @@ Functions:
 >PatodB()
 
 # Sound propagation
->transmissionloss() Calculate pressure drop for spherical spreading
+>transmissionloss() Calculate pressure drop over a distance for spherical or cylindrical spreading
 
->timedifftophase() Convert time difference to phase difference
+>timedifftophase() Convert time difference to phase difference for a given frequency
+
+>onsettimediff() Calculate the differences in arrival time (and generates two sound waveforms) for a given frequency and distance between ears/recievers 
