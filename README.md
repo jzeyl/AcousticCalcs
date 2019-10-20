@@ -12,4 +12,4 @@ Functions:
 
 >PatodB()
 
->transmissionloss()
+>transmissionloss() Calculate pressure drop for spherical spreading
