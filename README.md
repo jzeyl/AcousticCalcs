@@ -12,4 +12,4 @@ Functions:
 
 >PatodB()
 
->pressuredrop()
+>transmissionloss()
