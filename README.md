@@ -19,3 +19,10 @@ Functions:
 >timedifftophase() Convert time difference to phase difference for a given frequency
 
 >onsettimediff() Calculate the differences in arrival time (and generates two sound waveforms) for a given frequency and distance between ears/recievers 
+
+# Impedance calculations
+
+TODO: 
+1) compliance of air cavity volume
+2) Impedance transformer ratio
+3) fluid filled connection cylinder
