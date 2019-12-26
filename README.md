@@ -26,9 +26,4 @@ Functions:
 
 # Impedance calculations
 
-TODO: 
-1) compliance of air cavity volume
-2) Impedance transformer ratio
-3) fluid filled connection cylinder
-4) incorporate azimuth into onsetimediff()
-5) dynes/cm^2 to Pa
+
