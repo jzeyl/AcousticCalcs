@@ -9,20 +9,24 @@ devtools::install_github("jzeyl/AcousticCalcs", force = TRUE)
 
 Functions:
 # Conversions
->dBtoPa() Convert between dB relative to a reference microPascals, and Pascals or microPascals
-
->PatodB()
+>convert() – convert between Pa, uPa, dynes per cm squared, and ubar
+Input the value and the units to convert from and to 
 
 >angular() Convert frequency to angular frequency
 
->intensity() calculate the intensity based on pressure and impedance
 
 # Sound propagation
->transmissionloss() Calculate pressure drop over a distance for spherical or cylindrical spreading
 
->timedifftophase() Convert time difference to phase difference for a given frequency
+>onsettimediff() – compute the time difference and phase angle differences between a sond wave, give
+input: frequency, distance between sensors, speed of sound
+output: a list containingthe two sound waves, time difference, and phase difference, a plot if plot = TRUE
 
->onsettimediff() Calculate the differences in arrival time (and generates two sound waveforms) for a given frequency and distance between ears/recievers 
+
+>dopplershift() – input the speeds of sound source and receiver, and the speed of sound, and direction of movement between sources
+Output: shifted frequency
+
+>pressure_transmissionloss()– input the distance, level of the sound source. Can be converted for raw values or dB. Simply 1/r, spherical spreading.
+Output: get the amount of (1) transmission loss and (2) new sound level at new location
 
 # Impedance calculations
 
