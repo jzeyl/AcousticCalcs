@@ -8,8 +8,9 @@ devtools::install_github("jzeyl/AcousticCalcs", force = TRUE)
 ```
 
 Functions:
-# Conversions
->convert() – convert between Pa, uPa, dynes per cm squared, and ubar
+# Unit conversions
+
+>convert() – convert between Pa, uPa, dynes per cm squared, and ubar.
 Input the value and the units to convert from and to 
 
 >angular() Convert frequency to angular frequency
@@ -17,9 +18,9 @@ Input the value and the units to convert from and to
 
 # Sound propagation
 
->onsettimediff() – compute the time difference and phase angle differences between a sond wave, give
+>onsettimediff() – compute the time difference and phase angle differences between a sound wave, give
 input: frequency, distance between sensors, speed of sound
-output: a list containingthe two sound waves, time difference, and phase difference, a plot if plot = TRUE
+output: a list containing the two sound waves, time difference, and phase difference, an oscillogram plot of the wave if plot = TRUE
 
 
 >dopplershift() – input the speeds of sound source and receiver, and the speed of sound, and direction of movement between sources
