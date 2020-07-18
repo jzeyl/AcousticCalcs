@@ -13,12 +13,10 @@ Functions:
 >convert() – convert between Pa, uPa, dynes per cm squared, and ubar.
 Input the value and the units to convert from and to 
 
->angular() Convert frequency to angular frequency
-
 
 # Sound propagation
 
->onsettimediff() – compute the time difference and phase angle differences between a sound wave, give
+>onsettimediff() – plot the time difference and phase angle differences between a sound wave passing through two recievers
 input: frequency, distance between sensors, speed of sound
 output: a list containing the two sound waves, time difference, and phase difference, an oscillogram plot of the wave if plot = TRUE
 
