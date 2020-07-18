@@ -1,10 +1,11 @@
-#'Phase shift
+#'Calculate doppler shift and percent frequency change
 #'
-#'Calculates the sine wave and time shifted time wave. Output is a list: S1 (first sound),
+#'Calculates the doppler shift. Input velocity, frequency. The output gives the new frequency and
+#'the frequency shift
 #'S2 (time shifted sound), Tadd (time added), Time (time)
 #' @param v1 speed of first one
 #' @param v2 speed of second one
-#' @param freq frequency
+#' @param direction specify the direction as towards or away from each other
 #' @param f frequency
 #' @examples
 #' timeshiftpressure(Amplitude = 1, freq = 2, distance = 340, c = 340)
