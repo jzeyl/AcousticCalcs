@@ -13,10 +13,6 @@ intensity(Pa = 1, Z = 340)
 \item{dB}{decibel value}
 
 \item{ref}{reference pressure in micropasals}
-
-\item{dB}{decibel value}
-
-\item{ref}{reference pressure in micropasals}
 }
 \description{
 This function allows you to convert decibels to Pascals. Defaults to a reference pressure of 20 microPascals.
