@@ -29,4 +29,8 @@ Output: get the amount of (1) transmission loss and (2) new sound level at new l
 
 ![alt text](/acalc.png)
 
+# Audiogram metrics
+
+>audiogramslice() -
+
 
