@@ -10,8 +10,7 @@ devtools::install_github("jzeyl/AcousticCalcs", force = TRUE)
 Functions:
 # Unit conversions
 
->convert() – convert between Pa, uPa, dynes per cm squared, and ubar.
-Input the value and the units to convert from and to 
+>convert() – convert between Pa, uPa, dynes per cm squared, and ubar. Input the value and the units to convert from and to 
 
 
 # Sound propagation
@@ -19,7 +18,7 @@ Input the value and the units to convert from and to
 >onsettimediff() – plot the time difference and phase angle differences between a sound wave passing through two recievers
 input: frequency, distance between sensors, speed of sound
 output: a list containing the two sound waves, time difference, and phase difference, an oscillogram plot of the wave if plot = TRUE
-
+![alt text](/acalc.png)
 
 >dopplershift() – input the speeds of sound source and receiver, and the speed of sound, and direction of movement between sources
 Output: shifted frequency
@@ -27,11 +26,11 @@ Output: shifted frequency
 >pressure_transmissionloss()– input the distance, level of the sound source. Can be converted for raw values or dB. Simply 1/r, spherical spreading.
 Output: get the amount of (1) transmission loss and (2) new sound level at new location
 
-![alt text](/acalc.png)
+
 
 # Audiogram metrics
 
 >audiogramslice() - 
 audiogramslice	Get high and low frequency hearing limits, best sensitivity, and best frqeuency from an audiogram for a given SPL level.
 
-
+>humanaudiogram() - data with human audiogram for reference 

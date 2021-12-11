@@ -16,10 +16,11 @@
 
 audiogramslice<-function(cutoff = 35, Hz, threshold, plot = T){
   audiogram<-data.frame()#
-  df_audiogram<-as.data.frame(approx(Hz,threshold,n = 500))#approx function to interpolate audiogram
+  df_audiogram<-as.data.frame(approx(Hz,threshold,n = 5000))#approx function to interpolate audiogram
   df_audiogram
-  df_audiogram$Hz<-df_audiogram$x
-  df_audiogram$threshold<-df_audiogram$y
+  df_audiogram$Hz<-as.numeric(df_audiogram$x)
+  df_audiogram$threshold<-as.numeric(df_audiogram$y)
+
   besthz<-df_audiogram$Hz[df_audiogram$threshold==min(df_audiogram$threshold)]
   bestsensitivity<-df_audiogram$threshold[df_audiogram$threshold==min(df_audiogram$threshold)]
 
@@ -35,17 +36,19 @@ audiogramslice<-function(cutoff = 35, Hz, threshold, plot = T){
   }
 
   #calculate high Hz limit
-  if(nrow(df_audiogram[df_audiogram$threshold>35 & df_audiogram$Hz >besthz,])==0)
+  if(nrow(df_audiogram[df_audiogram$threshold>cutoff & df_audiogram$Hz >besthz,])==0)
    {# #if the audiogram does not go above cutoff value, get max frequency tested
     highlimit<-max(df_audiogram$Hz)
   }
   else{
-    highflank<-df_audiogram[df_audiogram$threshold>35 & df_audiogram$Hz >besthz,]#get frequency where audiogram crosses cutoff value
+    highflank<-df_audiogram[df_audiogram$threshold>cutoff & df_audiogram$Hz >besthz,]#get frequency where audiogram crosses cutoff value
     highlimit<-min(highflank$Hz)#High hz limit
   }
   if(plot == T){
   plot(Hz,threshold, log = "x", type = "l")
   abline(a = cutoff,0)
+  abline(v = lowlimit)
+  abline(v = highlimit)
   }
   #convert to dataframe and give column names
   limits<-data.frame(lowlimit, highlimit, bestsensitivity,besthz)
