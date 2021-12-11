@@ -6,8 +6,7 @@
 #' @param unit degrees ("deg") or radians ("rad")
 #' @param f frequency
 #' @examples
-
-#phaseshiftindegrees = (360*timedifference)/wave period
+#' phaseshiftindegrees = (360*timedifference)/wave period
 
 #Arguments: time difference in seconds, frequency,
 

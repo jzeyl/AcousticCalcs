@@ -31,6 +31,7 @@ Output: get the amount of (1) transmission loss and (2) new sound level at new l
 
 # Audiogram metrics
 
->audiogramslice() -
+>audiogramslice() - 
+audiogramslice	Get high and low frequency hearing limits, best sensitivity, and best frqeuency from an audiogram for a given SPL level.
 
 

@@ -18,3 +18,6 @@ phaseangle(tdiff = 0.001, freq = 100, unit = "deg")
 \description{
 Calculates the phase shift corresponding to a given time difference
 }
+\examples{
+phaseshiftindegrees = (360*timedifference)/wave period
+}
