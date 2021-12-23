@@ -12,6 +12,8 @@ Functions:
 
 >convert() – convert between Pa, uPa, dynes per cm squared, and ubar. Input the value and the units to convert from and to 
 
+>hztocents()- convert a frequency interval to cents, semitones, and octaves
+
 
 # Sound propagation
 
