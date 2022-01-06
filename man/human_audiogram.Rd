@@ -2,10 +2,11 @@
 % Please edit documentation in R/human audiogram.R
 \name{human_audiogram}
 \alias{human_audiogram}
-\title{Creates a dataframe with a human audiogram for reference from Jackson et al. 1999}
+\title{humanaudiogram}
 \usage{
 human_audiogram()
 }
 \description{
 Creates a dataframe with a human audiogram for reference from Jackson et al. 1999
+Jackson, L.L., Heffner, R.S., Heffner, H.E., 1999. Free-field audiogram of the Japanese macaque (Macaca fuscata). The Journal of the Acoustical Society of America 106, 3017-3023. https://doi.org/10.1121/1.428121
 }

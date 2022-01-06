@@ -1,9 +1,9 @@
-#'Plot inter-receiver waveform differences
-#'
+#'onsettimediff
 #'
 #'Calculates the sine wave and time shifted time wave. Output is a list: S1 (first sound),
-#'S2 (time shifted sound), Tadd (time added), Time (time)
-#' @param angle angle of sound in degrees. 0 is directly in front
+#'S2 (time shifted sound), Tadd (time added), Time (time). Assumes angle of 0 between
+#'sound source and two receivers.
+#'
 #' @param d distance between two ears or receivers
 #' @param c speed of sound
 #' @param f frequency

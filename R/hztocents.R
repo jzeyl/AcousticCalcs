@@ -1,4 +1,17 @@
-#' Go from a frequency interval to cents, semitones, and octaves
+#'hztocents
+#'
+#'Convert a frequency interval to cents, semitones, and octaves
+#'
+#'@examples
+#'> hztocents(100,200)
+#'[[1]]
+#'[1] "1200 cents"
+#'
+#'[[2]]
+#'[1] "12 semitones"
+#'
+#'[[3]]
+#'[1] "1 ocataves"
 #'
 #' @param f1 first frequency
 #' @param f1 second frequency

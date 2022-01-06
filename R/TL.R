@@ -1,9 +1,5 @@
-#description - calculates the transmission loss from geometric
-#spreading, either spherical or cylindrical calculateddB drop
-#
-#' Calculate pressure drop for spherical spreading.
 #'
-#' 6 dB per distance doubled. Defaults to dB units, but Pa can be used
+#' Calculates transmission in 6 dB per distance doubled. Defaults to dB units, but Pa can be used
 #'
 #' @param distance distance between source and receiver
 #' @param initlevel  sound level at source

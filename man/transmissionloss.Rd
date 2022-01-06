@@ -2,7 +2,7 @@
 % Please edit documentation in R/TL.R
 \name{transmissionloss}
 \alias{transmissionloss}
-\title{Calculate pressure drop for spherical spreading.}
+\title{Calculates transmission in 6 dB per distance doubled. Defaults to dB units, but Pa can be used}
 \usage{
 transmissionloss(distance = 2, initlevel = 100, unit = "dB")
 }
@@ -14,7 +14,7 @@ transmissionloss(distance = 2, initlevel = 100, unit = "dB")
 \item{unit}{units of dB or Pa}
 }
 \description{
-6 dB per distance doubled. Defaults to dB units, but Pa can be used
+Calculates transmission in 6 dB per distance doubled. Defaults to dB units, but Pa can be used
 }
 \examples{
 pressuredrop(2)

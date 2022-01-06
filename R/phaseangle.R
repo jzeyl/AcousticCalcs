@@ -1,4 +1,4 @@
-#'Convert time difference to phase difference
+#'phaseangle
 #'
 #'Calculates the phase shift corresponding to a given time difference
 #' @param tdiff time difference in seconds

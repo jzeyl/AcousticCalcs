@@ -2,14 +2,14 @@
 % Please edit documentation in R/3_array_Onset time diff.R
 \name{onsettimediff}
 \alias{onsettimediff}
-\title{Plot inter-receiver waveform differences}
+\title{Calculates the sine wave and time shifted time wave. Output is a list: S1 (first sound),
+S2 (time shifted sound), Tadd (time added), Time (time). Assumes angle of 0 between
+sound source and two receivers.}
 \usage{
 onsettimediff(amplitude = 1, freq = 2, distance = 20, c = 340, plot = TRUE)
 }
 \arguments{
 \item{c}{speed of sound}
-
-\item{angle}{angle of sound in degrees. 0 is directly in front}
 
 \item{d}{distance between two ears or receivers}
 
@@ -17,7 +17,8 @@ onsettimediff(amplitude = 1, freq = 2, distance = 20, c = 340, plot = TRUE)
 }
 \description{
 Calculates the sine wave and time shifted time wave. Output is a list: S1 (first sound),
-S2 (time shifted sound), Tadd (time added), Time (time)
+S2 (time shifted sound), Tadd (time added), Time (time). Assumes angle of 0 between
+sound source and two receivers.
 }
 \examples{
 timeshiftpressure(Amplitude = 1, freq = 2, distance = 340, c = 340)

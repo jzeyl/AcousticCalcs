@@ -1,8 +1,10 @@
+#'audiogramslice
+#'
 #'Get high and low frequency hearing limits, best sensitivity,
-#'and best frqeuency from an audiogram for a given
-#'SPL level.
+#'and best frequency from an audiogram for a given
+#'SPL level in dB.
 #'
-#'
+#' @param cutoff level in dB
 #' @param Hz numerical vector with frequencies of the audiogram
 #' @param threshold numerical vector with the thresholds
 #' @param plot logical term to decide whether to plot audiogram with cutoff values

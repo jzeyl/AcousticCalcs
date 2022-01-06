@@ -1,4 +1,4 @@
-#'Calculate doppler shift and percent frequency change
+#'dopplershift
 #'
 #'Calculates the doppler shift. Input velocity, frequency. The output gives the new frequency and
 #'the frequency shift
@@ -7,9 +7,13 @@
 #' @param v2 speed of second one
 #' @param direction specify the direction as towards or away from each other
 #' @param f frequency
-#' @examples
-#' timeshiftpressure(Amplitude = 1, freq = 2, distance = 340, c = 340)
-#' 1.002374
+#' @examples dopplershift(v1 = 10, v2 = 0, c = 343, freq = 300, direction = "towards")
+#'$Frequency
+#'[1] 308.7464
+#'
+#'$`Percent frequency shift`
+#'[1] 2.915452
+#'
 
 #Doppler
 #positive v = movint towards

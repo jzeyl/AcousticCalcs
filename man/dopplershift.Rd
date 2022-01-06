@@ -2,7 +2,7 @@
 % Please edit documentation in R/4_misc_dopplershift.R
 \name{dopplershift}
 \alias{dopplershift}
-\title{Calculate doppler shift and percent frequency change}
+\title{dopplershift}
 \usage{
 dopplershift(v1 = 10, v2 = 0, c = 340, freq = 300, direction = "towards")
 }
@@ -21,6 +21,11 @@ the frequency shift
 S2 (time shifted sound), Tadd (time added), Time (time)
 }
 \examples{
-timeshiftpressure(Amplitude = 1, freq = 2, distance = 340, c = 340)
-1.002374
+dopplershift(v1 = 10, v2 = 0, c = 343, freq = 300, direction = "towards")
+$Frequency
+[1] 308.7464
+
+$`Percent frequency shift`
+[1] 2.915452
+
 }

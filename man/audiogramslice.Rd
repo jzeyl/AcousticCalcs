@@ -2,13 +2,16 @@
 % Please edit documentation in R/audiogramslice.R
 \name{audiogramslice}
 \alias{audiogramslice}
-\title{Get high and low frequency hearing limits, best sensitivity,
-and best frqeuency from an audiogram for a given
-SPL level.}
+\title{audiogramslice
+Get high and low frequency hearing limits, best sensitivity,
+and best frequency from an audiogram for a given
+SPL level in dB.}
 \usage{
 audiogramslice(cutoff = 35, Hz, threshold, plot = T)
 }
 \arguments{
+\item{cutoff}{level in dB}
+
 \item{Hz}{numerical vector with frequencies of the audiogram}
 
 \item{threshold}{numerical vector with the thresholds}
@@ -16,9 +19,10 @@ audiogramslice(cutoff = 35, Hz, threshold, plot = T)
 \item{plot}{logical term to decide whether to plot audiogram with cutoff values}
 }
 \description{
+audiogramslice
 Get high and low frequency hearing limits, best sensitivity,
-and best frqeuency from an audiogram for a given
-SPL level.
+and best frequency from an audiogram for a given
+SPL level in dB.
 }
 \examples{
 audiogramslice(Hz = Hz_, threshold = threshold_, plot = F)
