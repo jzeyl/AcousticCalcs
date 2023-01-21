@@ -1,3 +1,5 @@
+**Note this is a work in progress - several functions may be incomplete**
+
 # AcousticCalcs
 The AcoustiCalcs package is a set of convenience functions for common calculations in acoustics and audiometry. 
 
